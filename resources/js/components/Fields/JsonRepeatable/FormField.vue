@@ -36,7 +36,7 @@
                 />
 
                 <div class="mt-1 md:mt-0 pb-5 px-6 md:px-8 md:py-5">
-                    <DangerButton @click="() => deleteRow(index)" type="button">
+                    <DangerButton @click="() => deleteRow(index)" type="button" class="bg-red-500 text-white p-2 mb-3 rounded">
                         <Icon type="trash" />
                     </DangerButton>
                 </div>
