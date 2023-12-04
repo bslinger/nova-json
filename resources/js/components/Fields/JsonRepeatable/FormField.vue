@@ -19,6 +19,7 @@
                     :mode="mode"
                     :field="rowField"
                     :errors="errors"
+                    :key="rowField.value"
                     :ref="
                         (el) => {
                             fieldRefs[rowField.attribute] = el;

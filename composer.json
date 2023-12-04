@@ -23,7 +23,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://laravel-nova.site"
+            "url": "https://nova.laravel.com"
         }
     ],
     "autoload": {
